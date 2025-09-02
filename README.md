@@ -3,8 +3,7 @@
 
 > Monorepo contendo quatro projetos integrados para demonstrar diferentes arquiteturas ASP.NET:  
 > **WCFServiceHost**, **WebAPI**, **WebForm**, **WebMVC**.  
->
-> ✅ Ideal como prova técnica/portfólio. Inclui instruções para rodar localmente, Swagger (opcional) e dicas de integração entre camadas.
+
 
 ---
 
