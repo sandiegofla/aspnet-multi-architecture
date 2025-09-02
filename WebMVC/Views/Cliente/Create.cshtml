@@ -1,0 +1,159 @@
+﻿@model WebMVC.Models.ClienteEndereco
+
+@{
+    ViewBag.Title = "Cadastrar Novo Cliente";
+}
+
+<!-- Link do Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+<!-- Link do jQuery Mask Plugin -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+
+<div class="container mt-4">
+    <h2 class="mb-4">@ViewBag.Title</h2>
+
+    @using (Html.BeginForm("Create", "Cliente", FormMethod.Post, new { id = "formCliente" }))
+    {
+        <div class="row mb-3">
+            <h4>Dados do Cliente</h4>
+
+            <div class="col-md-6">
+                @Html.LabelFor(m => m.Cliente.Nome, new { @class = "form-label" })
+                @Html.TextBoxFor(m => m.Cliente.Nome, new { @class = "form-control" })
+            </div>
+
+            <div class="col-md-6">
+                @Html.LabelFor(m => m.Cliente.CPF, new { @class = "form-label" })
+                @Html.TextBoxFor(m => m.Cliente.CPF, new { @class = "form-control", id = "cpfInput", maxlength = "14" })
+            </div>
+
+            <div class="col-md-6">
+                @Html.LabelFor(m => m.Cliente.RG, new { @class = "form-label" })
+                @Html.TextBoxFor(m => m.Cliente.RG, new { @class = "form-control", maxlength = "12" })
+            </div>
+
+            <div class="col-md-6">
+                @Html.LabelFor(m => m.Cliente.DataExpedicao, new { @class = "form-label" })
+                @Html.TextBoxFor(m => m.Cliente.DataExpedicao, new { @class = "form-control", type = "date" })
+            </div>
+
+            <div class="col-md-6">
+                @Html.LabelFor(m => m.Cliente.OrgaoExpedicao, new { @class = "form-label" })
+                @Html.TextBoxFor(m => m.Cliente.OrgaoExpedicao, new { @class = "form-control" })
+            </div>
+
+            <div class="col-md-6">
+                @Html.LabelFor(m => m.Cliente.UFExpedicao, new { @class = "form-label" })
+                @Html.DropDownListFor(m => m.Cliente.UFExpedicao, new SelectList(new List<string> {
+                    "AC", "AL", "AP", "AM", "BA", "CE", "DF", "ES", "GO", "MA",
+                    "MT", "MS", "MG", "PA", "PB", "PR", "PE", "PI", "RJ", "RN",
+                    "RS", "RO", "RR", "SC", "SP", "SE", "TO"
+                }), "Selecione", new { @class = "form-select" })
+            </div>
+
+            <div class="col-md-6">
+                @Html.LabelFor(m => m.Cliente.DataNascimento, new { @class = "form-label" })
+                @Html.TextBoxFor(m => m.Cliente.DataNascimento, new { @class = "form-control", type = "date" })
+            </div>
+
+            <div class="col-md-6">
+                @Html.LabelFor(m => m.Cliente.Sexo, new { @class = "form-label" })
+                @Html.DropDownListFor(m => m.Cliente.Sexo, new SelectList(new List<string> { "Masculino", "Feminino" }), "Selecione", new { @class = "form-select" })
+            </div>
+
+            <div class="col-md-6">
+                @Html.LabelFor(m => m.Cliente.EstadoCivil, new { @class = "form-label" })
+                @Html.DropDownListFor(m => m.Cliente.EstadoCivil, new SelectList(new List<string> { "Solteiro", "Casado", "Divorciado", "Viúvo" }), "Selecione", new { @class = "form-select" })
+            </div>
+        </div>
+
+        <hr />
+
+        <div class="row mb-3">
+            <h4>Endereço</h4>
+
+            <div class="col-md-6">
+                @Html.LabelFor(m => m.Endereco.CEP, new { @class = "form-label" })
+                <div class="input-group">
+                    @Html.TextBoxFor(m => m.Endereco.CEP, new { @class = "form-control", id = "cepInput" })
+                    <button type="button" id="btnBuscarCep" class="btn btn-outline-secondary" style="width:50px;">🔍</button>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                @Html.LabelFor(m => m.Endereco.Logradouro, new { @class = "form-label" })
+                @Html.TextBoxFor(m => m.Endereco.Logradouro, new { @class = "form-control", id = "logradouroInput" })
+            </div>
+
+            <div class="col-md-4">
+                @Html.LabelFor(m => m.Endereco.Numero, new { @class = "form-label" })
+                @Html.TextBoxFor(m => m.Endereco.Numero, new { @class = "form-control", id = "numeroInput" })
+            </div>
+
+            <div class="col-md-8">
+                @Html.LabelFor(m => m.Endereco.Complemento, new { @class = "form-label" })
+                @Html.TextBoxFor(m => m.Endereco.Complemento, new { @class = "form-control" })
+            </div>
+
+            <div class="col-md-4">
+                @Html.LabelFor(m => m.Endereco.Bairro, new { @class = "form-label" })
+                @Html.TextBoxFor(m => m.Endereco.Bairro, new { @class = "form-control", id = "bairroInput" })
+            </div>
+
+            <div class="col-md-4">
+                @Html.LabelFor(m => m.Endereco.Cidade, new { @class = "form-label" })
+                @Html.TextBoxFor(m => m.Endereco.Cidade, new { @class = "form-control", id = "cidadeInput" })
+            </div>
+
+            <div class="col-md-4">
+                @Html.LabelFor(m => m.Endereco.UF, new { @class = "form-label" })
+                @Html.DropDownListFor(m => m.Endereco.UF, new SelectList(new List<string> {
+                    "AC", "AL", "AP", "AM", "BA", "CE", "DF", "ES", "GO", "MA",
+                    "MT", "MS", "MG", "PA", "PB", "PR", "PE", "PI", "RJ", "RN",
+                    "RS", "RO", "RR", "SC", "SP", "SE", "TO"
+                }), "Selecione", new { @class = "form-select", id = "ufInput" })
+            </div>
+        </div>
+
+        <div class="text-end mt-4">
+            <button type="submit" class="btn btn-success">Salvar</button>
+        </div>
+    }
+</div>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+
+    <script>
+        $(function () {
+            // Máscara para CPF
+            $("#cpfInput").mask("000.000.000-00");
+
+            // Clique no botão de buscar CEP
+            $("#btnBuscarCep").click(function (e) {
+                e.preventDefault(); 
+
+                var cep = $("#cepInput").val().replace(/\D/g, '');
+
+                if (cep.length === 8) {
+                    $.getJSON("https://viacep.com.br/ws/" + cep + "/json/", function (data) {
+                        if (!data.erro) {
+                            $("#logradouroInput").val(data.logradouro);
+                            $("#bairroInput").val(data.bairro);
+                            $("#cidadeInput").val(data.localidade);
+                            $("#ufInput").val(data.uf);
+                        } else {
+                            alert("CEP não encontrado.");
+                        }
+                    }).fail(function () {
+                        alert("Erro ao buscar o CEP.");
+                    });
+                } else {
+                    alert("Digite um CEP válido com 8 dígitos.");
+                }
+            });
+        });
+    </script>
+}
+

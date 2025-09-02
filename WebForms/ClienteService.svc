@@ -1,0 +1,7 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="WebForm.Services.ClienteService" CodeBehind="ClienteService.svc.cs" %>
+
+
+
+
+
+

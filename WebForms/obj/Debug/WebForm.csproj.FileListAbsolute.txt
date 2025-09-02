@@ -1,0 +1,27 @@
+C:\Projetos\GTISolution\TesteCandidato\WebForms\bin\WebForm.dll.config
+C:\Projetos\GTISolution\TesteCandidato\WebForms\bin\WebForm.dll
+C:\Projetos\GTISolution\TesteCandidato\WebForms\bin\WebForm.pdb
+C:\Projetos\GTISolution\TesteCandidato\WebForms\obj\Debug\WebForm.csprojAssemblyReference.cache
+C:\Projetos\GTISolution\TesteCandidato\WebForms\obj\Debug\WebForm.csproj.CoreCompileInputs.cache
+C:\Projetos\GTISolution\TesteCandidato\WebForms\obj\Debug\WebForm.dll
+C:\Projetos\GTISolution\TesteCandidato\WebForms\obj\Debug\WebForm.pdb
+D:\Documentos_Projetos\GTISolution\Testes Candidatos\ModeloProjeto\WebForms\bin\WebForm.dll.config
+D:\Documentos_Projetos\GTISolution\Testes Candidatos\ModeloProjeto\WebForms\bin\WebForm.dll
+D:\Documentos_Projetos\GTISolution\Testes Candidatos\ModeloProjeto\WebForms\bin\WebForm.pdb
+D:\Documentos_Projetos\GTISolution\Testes Candidatos\ModeloProjeto\WebForms\obj\Debug\WebForm.csprojAssemblyReference.cache
+D:\Documentos_Projetos\GTISolution\Testes Candidatos\ModeloProjeto\WebForms\obj\Debug\WebForm.csproj.CoreCompileInputs.cache
+D:\Documentos_Projetos\GTISolution\Testes Candidatos\ModeloProjeto\WebForms\obj\Debug\WebForm.dll
+D:\Documentos_Projetos\GTISolution\Testes Candidatos\ModeloProjeto\WebForms\obj\Debug\WebForm.pdb
+C:\Users\Sandi\Desktop\Projeto GTI Solution\ModeloProjeto (1)\ModeloProjeto\WebForms\bin\WebForm.dll.config
+C:\Users\Sandi\Desktop\Projeto GTI Solution\ModeloProjeto (1)\ModeloProjeto\WebForms\bin\WebForm.dll
+C:\Users\Sandi\Desktop\Projeto GTI Solution\ModeloProjeto (1)\ModeloProjeto\WebForms\bin\WebForm.pdb
+C:\Users\Sandi\Desktop\Projeto GTI Solution\ModeloProjeto (1)\ModeloProjeto\WebForms\bin\WCFServiceHost.dll
+C:\Users\Sandi\Desktop\Projeto GTI Solution\ModeloProjeto (1)\ModeloProjeto\WebForms\bin\System.Data.SQLite.dll
+C:\Users\Sandi\Desktop\Projeto GTI Solution\ModeloProjeto (1)\ModeloProjeto\WebForms\bin\WCFServiceHost.pdb
+C:\Users\Sandi\Desktop\Projeto GTI Solution\ModeloProjeto (1)\ModeloProjeto\WebForms\bin\WCFServiceHost.dll.config
+C:\Users\Sandi\Desktop\Projeto GTI Solution\ModeloProjeto (1)\ModeloProjeto\WebForms\bin\System.Data.SQLite.xml
+C:\Users\Sandi\Desktop\Projeto GTI Solution\ModeloProjeto (1)\ModeloProjeto\WebForms\obj\Debug\WebForm.csprojAssemblyReference.cache
+C:\Users\Sandi\Desktop\Projeto GTI Solution\ModeloProjeto (1)\ModeloProjeto\WebForms\obj\Debug\WebForm.csproj.CoreCompileInputs.cache
+C:\Users\Sandi\Desktop\Projeto GTI Solution\ModeloProjeto (1)\ModeloProjeto\WebForms\obj\Debug\WebForm.csproj.CopyComplete
+C:\Users\Sandi\Desktop\Projeto GTI Solution\ModeloProjeto (1)\ModeloProjeto\WebForms\obj\Debug\WebForm.dll
+C:\Users\Sandi\Desktop\Projeto GTI Solution\ModeloProjeto (1)\ModeloProjeto\WebForms\obj\Debug\WebForm.pdb

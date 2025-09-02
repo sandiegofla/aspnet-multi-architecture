@@ -1,0 +1,29 @@
+C:\Projetos\GTISolution\TesteCandidato\WCFServiceHost\bin\WCFServiceHost.dll.config
+C:\Projetos\GTISolution\TesteCandidato\WCFServiceHost\bin\WCFServiceHost.dll
+C:\Projetos\GTISolution\TesteCandidato\WCFServiceHost\bin\WCFServiceHost.pdb
+C:\Projetos\GTISolution\TesteCandidato\WCFServiceHost\obj\Debug\WCFServiceHost.csprojAssemblyReference.cache
+C:\Projetos\GTISolution\TesteCandidato\WCFServiceHost\obj\Debug\WCFServiceHost.csproj.CoreCompileInputs.cache
+C:\Projetos\GTISolution\TesteCandidato\WCFServiceHost\obj\Debug\WCFServiceHost.dll
+C:\Projetos\GTISolution\TesteCandidato\WCFServiceHost\obj\Debug\WCFServiceHost.pdb
+D:\Documentos_Projetos\GTISolution\Testes Candidatos\ModeloProjeto\WCFServiceHost\bin\WCFServiceHost.dll.config
+D:\Documentos_Projetos\GTISolution\Testes Candidatos\ModeloProjeto\WCFServiceHost\bin\WCFServiceHost.dll
+D:\Documentos_Projetos\GTISolution\Testes Candidatos\ModeloProjeto\WCFServiceHost\bin\WCFServiceHost.pdb
+D:\Documentos_Projetos\GTISolution\Testes Candidatos\ModeloProjeto\WCFServiceHost\obj\Debug\WCFServiceHost.csprojAssemblyReference.cache
+D:\Documentos_Projetos\GTISolution\Testes Candidatos\ModeloProjeto\WCFServiceHost\obj\Debug\WCFServiceHost.csproj.CoreCompileInputs.cache
+D:\Documentos_Projetos\GTISolution\Testes Candidatos\ModeloProjeto\WCFServiceHost\obj\Debug\WCFServiceHost.dll
+D:\Documentos_Projetos\GTISolution\Testes Candidatos\ModeloProjeto\WCFServiceHost\obj\Debug\WCFServiceHost.pdb
+C:\Users\Sandi\Desktop\Projeto GTI Solution\ModeloProjeto (1)\ModeloProjeto\WCFServiceHost\bin\WCFServiceHost.dll.config
+C:\Users\Sandi\Desktop\Projeto GTI Solution\ModeloProjeto (1)\ModeloProjeto\WCFServiceHost\bin\WCFServiceHost.dll
+C:\Users\Sandi\Desktop\Projeto GTI Solution\ModeloProjeto (1)\ModeloProjeto\WCFServiceHost\bin\WCFServiceHost.pdb
+C:\Users\Sandi\Desktop\Projeto GTI Solution\ModeloProjeto (1)\ModeloProjeto\WCFServiceHost\bin\System.Data.SQLite.dll
+C:\Users\Sandi\Desktop\Projeto GTI Solution\ModeloProjeto (1)\ModeloProjeto\WCFServiceHost\bin\System.Data.SQLite.xml
+C:\Users\Sandi\Desktop\Projeto GTI Solution\ModeloProjeto (1)\ModeloProjeto\WCFServiceHost\obj\Debug\WCFServiceHost.csproj.CoreCompileInputs.cache
+C:\Users\Sandi\Desktop\Projeto GTI Solution\ModeloProjeto (1)\ModeloProjeto\WCFServiceHost\obj\Debug\WCFServiceHost.csproj.CopyComplete
+C:\Users\Sandi\Desktop\Projeto GTI Solution\ModeloProjeto (1)\ModeloProjeto\WCFServiceHost\obj\Debug\WCFServiceHost.dll
+C:\Users\Sandi\Desktop\Projeto GTI Solution\ModeloProjeto (1)\ModeloProjeto\WCFServiceHost\obj\Debug\WCFServiceHost.pdb
+C:\Users\Sandi\Desktop\Projeto GTI Solution\ModeloProjeto (1)\ModeloProjeto\WCFServiceHost\bin\EntityFramework.dll
+C:\Users\Sandi\Desktop\Projeto GTI Solution\ModeloProjeto (1)\ModeloProjeto\WCFServiceHost\bin\EntityFramework.SqlServer.dll
+C:\Users\Sandi\Desktop\Projeto GTI Solution\ModeloProjeto (1)\ModeloProjeto\WCFServiceHost\bin\System.Data.SQLite.EF6.dll
+C:\Users\Sandi\Desktop\Projeto GTI Solution\ModeloProjeto (1)\ModeloProjeto\WCFServiceHost\bin\System.Data.SQLite.Linq.dll
+C:\Users\Sandi\Desktop\Projeto GTI Solution\ModeloProjeto (1)\ModeloProjeto\WCFServiceHost\bin\EntityFramework.xml
+C:\Users\Sandi\Desktop\Projeto GTI Solution\ModeloProjeto (1)\ModeloProjeto\WCFServiceHost\bin\EntityFramework.SqlServer.xml
